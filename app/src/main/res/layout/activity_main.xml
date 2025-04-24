@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_1"
+        android:layout_width="match_parent"
+        android:layout_height="118dp"
+        android:layout_marginTop="200dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center_horizontal"
+        android:maxEms="10"
+        android:maxLines="1"
+        android:text="Life Letter"
+        android:textColor="#D00C6A61"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et_1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="70dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/youyuan"
+        android:hint="  用户名"
+        android:background="@drawable/bg_username"
+        android:textColor="#05353A"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/et_2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:hint="  登录密码"
+        android:textStyle="bold"
+        android:fontFamily="@font/youyuan"
+        android:inputType="numberPassword"
+        android:maxLines="1"
+        android:textColor="#05353A"
+        android:background="@drawable/bg_username"
+        android:textSize="18sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="160dp"
+
+            android:layout_height="70dp"
+            android:background="@drawable/new_button"
+            android:layout_gravity="center"
+
+            android:fontFamily="@font/youyuan"
+            android:text="登录"
+            android:textStyle="bold"
+            android:textColor="#9EFFFFFF"
+            android:textSize="24dp"
+
+            />
+
+        <Button
+            android:id="@+id/btn_"
+            android:layout_marginLeft="20dp"
+            android:layout_width="160dp"
+
+            android:layout_height="70dp"
+            android:background="@drawable/new_button"
+            android:layout_gravity="center"
+
+            android:fontFamily="@font/youyuan"
+            android:text="注册"
+            android:textStyle="bold"
+            android:textColor="#9EFFFFFF"
+            android:textSize="24dp"
+
+            />
+    </LinearLayout>
+
+</LinearLayout>

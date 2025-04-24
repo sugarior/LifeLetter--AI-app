@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    android:id="@+id/ask"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="添加事项"
+        android:fontFamily="sans-serif-black"
+        android:textStyle="bold"
+        android:textColor="#F8F6F6"
+        android:gravity="center"
+        android:background="#D34D989C"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/TV_respond"
+
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/bg_username"/>
+    <EditText
+        android:id="@+id/Edit_Ask"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="200dp"
+        android:background="@drawable/bg_username"
+        android:hint="  请输入任意有关日程的通知"
+        android:layout_gravity="top"
+        android:gravity="top"/>
+    <!--    <LinearLayout -->
+    <!--        android:id="@+id/interact" -->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:orientation="horizontal"-->
+    <!--        android:layout_marginTop="20dp" -->
+    <!--        android:padding="50dp">-->
+    <!--        <Button -->
+    <!--            android:id="@+id/button_return" -->
+    <!--            android:layout_width="0dp"-->
+    <!--            android:layout_height="wrap_content" -->
+    <!--            android:layout_gravity="center"-->
+    <!--            android:layout_weight="1" -->
+    <!--            android:padding="20dp" -->
+    <!--            android:text="返回" -->
+    <!--            android:textSize="20dp"/>-->
+    <!--        <Button -->
+    <!--            android:id="@+id/button_ok" -->
+    <!--            android:layout_width="0dp"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="确认"-->
+    <!--            android:textSize="20dp" -->
+    <!--            android:layout_gravity="center" -->
+    <!--            android:padding="20dp" -->
+    <!--            android:layout_weight="1"/>-->
+    <!--    </LinearLayout>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_confirm"
+            android:layout_width="160dp"
+
+            android:layout_height="70dp"
+            android:background="@drawable/new_button"
+            android:layout_gravity="center"
+
+            android:fontFamily="@font/youyuan"
+            android:text="确认"
+            android:textStyle="bold"
+            android:textColor="#9EFFFFFF"
+            android:textSize="24dp"
+
+            />
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_marginLeft="30dp"
+            android:layout_width="160dp"
+
+            android:layout_height="70dp"
+            android:background="@drawable/new_button"
+            android:layout_gravity="center"
+
+            android:fontFamily="@font/youyuan"
+            android:text="返回"
+            android:textStyle="bold"
+            android:textColor="#9EFFFFFF"
+            android:textSize="24dp"
+
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

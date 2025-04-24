@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/img"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="记事本"
+        android:fontFamily="sans-serif-black"
+        android:textStyle="bold"
+        android:textColor="#F8F6F6"
+        android:gravity="center"
+        android:background="#D34D989C"
+        android:textSize="25sp"/>
+
+    <ListView
+        android:id="@+id/list_todo"
+        android:layout_width="match_parent"
+
+        android:layout_height="610dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp"
+        tools:listitem="@layout/listview_item"
+        />
+
+
+    <LinearLayout
+        android:id="@+id/Todo_View"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:orientation="vertical">
+
+
+        <Button
+
+            android:id="@+id/Button_TodoRet"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/new_button2"
+            android:layout_gravity="center"
+            android:fontFamily="@font/youyuan"
+            android:text="返回"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:textSize="24dp"
+
+            />
+    </LinearLayout>
+
+</LinearLayout>

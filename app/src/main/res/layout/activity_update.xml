@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    tools:ignore="InvalidId">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/button_return_lesson"
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:padding="3dp"
+            android:text="返回"
+            android:textStyle="bold"
+            android:fontFamily="@font/youyuan"
+            android:typeface="normal"
+            android:textColor="@color/white"
+            android:background="@drawable/new_button2"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#D34D989C"
+            android:fontFamily="@font/youyuan"
+            android:paddingLeft="70dp"
+            android:paddingTop="15dp"
+            android:text="   日程修改"
+            android:textColor="#F8F6F6"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/update_1"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/bg_username"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:text="  TextView" />
+
+    <EditText
+        android:id="@+id/update_name"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+
+        android:hint="待办名称"
+        android:background="@drawable/bg_2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="15dp"
+        android:padding="10dp"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/youyuan"
+
+        />
+    <EditText
+        android:id="@+id/update_time"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:hint="待办时间"
+        android:background="@drawable/bg_2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/youyuan"/>
+    <EditText
+        android:id="@+id/update_location"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:hint="待办地点"
+        android:background="@drawable/bg_2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/youyuan"/>
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_width="180dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/new_button"
+        android:fontFamily="@font/youyuan"
+        android:text="修改"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:textSize="24dp"/>
+
+</LinearLayout>
